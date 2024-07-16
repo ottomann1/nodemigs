@@ -1,4 +1,25 @@
- # Node modules
+# Node modules
+node_modules/
+
+# Drizzle migrations and schema
+drizzle/
+
+# PostgreSQL data files
+data/
+
+# pgAdmin data files
+pgadmin/
+
+# Environment variables
+.env
+
+# Other typical files to ignore
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.tmp
  node_modules
 
  # Docker
